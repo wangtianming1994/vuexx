@@ -4,14 +4,6 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<style>
-    div > div {
-        width: 100px;
-        height: 100px;
-        background: aqua
-    }
-
-</style>
 <link rel="stylesheet" href="./node_modules/animate.css/animate.css">
 <body>
 <div id="app">
@@ -20,12 +12,11 @@
     <!--如果if不通过内部的指令不会在执行了-->
     <!--只有dom从显示到隐藏，或者从隐藏到显示材产能使用vue的动画-->
     <button @click="flag=!flag">切换</button>
+    <input type="text" v-model="query">
     <!--vue自带的组件-->
-    <transition enter-active-class="fadeInRightBig" leave-active-class="fadeInRight">
-        <div v-show="flag">我爱你</div>
-    </transition>
-
-
+    <transition-group enter-active-class="animated bounceInUp" leave-active-class="animated bounceOutDown">
+        <div v-for="(a,index) in newArr" :key="Math.random()">{{a}}</div>
+    </transition-group>
 </div>
 <!--reactivity响应式的数据变化-->
 <script src="./node_modules/vue/dist/vue.js"></script>
@@ -33,9 +24,16 @@
     //vue会循环data中数据(数据劫持) 依次的增加getter 和setter
     let vm = new Vue({
         el: '#app',
+        computed:{
+            newArr(){
+                return  this.arr.filter(item=>item==this.query)
+            }
+        },
         data: {
-            flag: true
-        }
+            arr: [1,2,3,4,5],
+            query:''
+        },
+
     })
 
 </script>
