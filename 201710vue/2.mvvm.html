@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    {{msg}}//可以写js表达式，可以赋值 取值
+    <!--input checkbox textarea radio select表单元素可以实现mvvm-->
+    <!--表单元素的value属性一般会被vue忽略掉-->
+    <!--v-model 会将msg的值赋予输入框，输入框里面的值改变了会改变数据-->
+    <input type="text" v-model="msg">
+    <!--vue的指令：只是dom上的行间属性，-->
+    <!--vue给这类属性赋予了一定的意义来是想特殊的功能,所有的指令都是以v-开头-->
+
+
+    <!--v-text === {{}} v-text解决了小胡子强制刷新会看见大括号-->
+    <div v-text="msg"></div>
+
+    <!--v-once 至绑定一次，当数据再次发生变化的时候也不会导致页面刷新-->
+    <div v-once>
+        {{msg}}
+    </div>
+
+    <!--v-html 把html字符串当作html渲染,一定是可以信任的html-->
+    <div v-html="p"></div>
+</div>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script>
+    //引入vue会有一个vue的构造函数
+    let vm=new Vue({//vm=viewModel
+        el:'#app',//告诉vue能管理哪个部分
+        data:{//data中的数据会被vm所代理
+            msg:'zfpx',//可以通过vm.msg取到对应的内容,或者赋值
+            p:'<h1>123</h1>'
+        },
+    });//Object.defineProperty
+</script>
+</body>
+</html>

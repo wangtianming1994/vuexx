@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    {{arr[1]}}
+</div>
+<!--reactivity响应式的数据变化-->
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script>
+    //vue会循环data中数据(数据劫持) 依次的增加getter 和setter
+    let vm=new Vue({
+        el:'#app',
+        data:{
+            arr:[1,2,3,4,5]
+        }
+    });
+//vm.arr[0]=100;//去改变数组的某一项是监控不到的，错误写法
+    vm.arr.reverse();//只可以通过方法来改变
+</script>
+</body>
+</html>

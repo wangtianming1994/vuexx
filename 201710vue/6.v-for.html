@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="(fruit,index) in fruits">{{index+1}}{{fruit.name}}
+            <ul>
+                <li v-for="(col,childIndex) in fruit.color">
+                    {{index+1}}.{{childIndex+1}}{{col}}
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div v-for="a in 'aaa'">{{a}}</div>
+    <div v-for="a in 5">{{a}}</div>
+    <div v-for="(val,key,index) in obj">{{val}}{{key}}{{index}}</div>
+</div>
+<!--reactivity响应式的数据变化-->
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script>
+   //以前：拼字符串
+    //vue提供了一个指令v-for解决循环问题的更高效 会复用原有的结构
+    let vm=new Vue({
+        el:'#app',
+        data:{
+            fruits:[{name:'香蕉',color:['green','yellow']},
+                {name:'苹果',color:['red','green','yellow']},
+                {name:'橘子',color:['pink']}
+
+            ],
+            obj:{name:'zfpx',age:9,address:'xxx'}
+        }
+    })
+</script>
+</body>
+</html>

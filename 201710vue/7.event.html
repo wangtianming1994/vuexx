@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--所有绑定的方法都是window上的-->
+<div id="app">
+    <div @click="fn($event,1)">点我啊</div><!--v-on===@  fn传参的时候加括号要手动传$event，不传参的话默认会传个event-->
+</div>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script>
+
+   let vm=new Vue({//根实例
+       el:'#app',
+       data:{//放的是数据
+            a:1
+       },
+       methods:{//放的是方法，data，和methods都会放在vm上，methods中的this指向都是vue的实例vm
+           fn(e,a){
+               console.log(e, a);
+           }
+       }
+   })
+
+</script>
+</body>
+</html>

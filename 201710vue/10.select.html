@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <select v-model="a" id="select" >
+        <option value="" disabled>请选择</option>
+        <option value="1">你好</option>
+        <option value="2">我好</option>
+        <option value="3">不好</option>
+    </select>
+    {{a}}
+    <input type="radio" v-model="sex" value="男">男
+    <input type="radio" v-model="sex" value="女">女
+    {{sex}}
+
+    <!--v-clock 解决闪烁问题的-->
+</div>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script>
+    let vm=new Vue({
+        el:'#app',
+        data:{
+            sex:'男',
+           a:[]
+        },
+        methods:{
+
+        }
+    })
+</script>
+</body>
+</html>

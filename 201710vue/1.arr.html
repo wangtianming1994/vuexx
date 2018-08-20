@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<div id="app">
+    {{msg}}//可以写js表达式，可以赋值 取值
+
+</div>
+<script>
+    //引入vue会有一个vue的构造函数
+    let vm=new Vue({//vm=viewModel
+        el:'#app',//告诉vue能管理哪个部分
+        data:{//data中的数据会被vm所代理
+            msg:'zfpx'//可以通过vm.msg取到对应的内容,或者赋值
+
+        },
+    });//Object.defineProperty
+</script>
+</body>
+</html>

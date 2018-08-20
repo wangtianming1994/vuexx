@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    {{a.school}}
+</div>
+<!--reactivity响应式的数据变化-->
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script>
+    //vue会循环data中数据(数据劫持) 依次的增加getter 和setter
+    let vm=new Vue({
+        el:'#app',
+        data:{
+            a:{school:''}
+        }
+    })
+    //使用变量时 先要初始化，否则新加的属性不会导致页面刷新
+    vm.$set(vm.a,'school','1');//此方法可以对戏那个添加响应式的数据变化（参数是给谁加，加什么属性，给属性默认值）
+    //替换原对象
+    vm.a={school:'zfpx',age:8,address:'xxx'}
+</script>
+</body>
+</html>

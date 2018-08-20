@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<div id="app">
+    <!--浏览器扩展程序vuetools-->
+    <div class="container">
+        <div class="row">
+            <table class="table table-hover table-bordered">
+                <h2 class="h2 text-info text-center">购物车</h2>
+                <tr>
+                    <th>全选 <input type="checkbox" v-model="checkAll" @change="change"></th>
+                    <td>商品</td>
+                    <td>单价</td>
+                    <td>数量</td>
+                    <td>小计</td>
+                    <td>操作</td>
+                </tr>
+                <tr v-for="(product,index) in products">
+                    <td><input type="checkbox" v-model="product.isSelect" @change="checkOne"></td>
+                    <td><img :src="product.productCove"  :title="product.productName">
+                        <!-- : 和v-bind等价-->
+                        {{product.productInfo}}
+                    </td>
+                    <td>{{product.productPrice}}</td>
+                    <!--.number是让输入框的值变成数字，否则默认取值是字符串-->
+                    <td><input type="number" v-model.number="product.productCount"></td>
+                    <td>
+                        <!--原数据不变的情况，只是改变显示效果， 管道符| -->
+                        {{product.productPrice*product.productCount | toFixed(2)}}
+                    </td>
+                    <td><button class="bgn btn-danger" @click="remove(product)">删除</button></td>
+                </tr>
+                <tr>
+                    <!--数据变化就会重新调用此函数，不会缓存上一次的结果，computed可以解决这个问题-->
+                    <td colspan="6">总价格：{{sum() | toFixed(2)}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script src="./node_modules/axios/dist/axios.js"></script>
+<script>
+    let vm = new Vue({
+        el: '#app',
+        created() {
+            this.initData();
+
+        },
+        filters:{//可以有好多的自定义过滤器
+            toFixed(input,param1){//这里的this指向是window
+                return '￥'+input.toFixed(param1);//input是管道负前面的值，param1是toFexed传过来的参数
+            }
+        },
+        data: {
+            products: [],
+            checkAll:false
+        },
+        methods: {
+            initData() {//初始化方法
+                //数据被初始化后被调用,生命周期的函数this指向是window,可以获取到method的方法
+                // (专门写请求的地方)
+//            console.log(this.products);
+                axios.get('./carts.json').then(res => {
+                    console.log(res);
+                    this.products = res.data;//获取数据，拿到的需要res.data
+                    this.checkOne();//数据获取完成后给checkAll赋值
+                }).catch(err => {
+                    console.log(err);
+                })
+            },
+            remove(p){//p代表的是当前点击的那一项
+                this.products=this.products.filter(item=>item!==p);
+            },
+            change(){
+                console.log(this.checkAll);
+                this.products.forEach(item=>{
+                    item.isSelect=this.checkAll
+                })
+            },
+            checkOne(){//根据下面点击的结果控制上面全选的结果
+                this.checkAll=this.products.every(item=>item.isSelect)
+            },
+            sum(){//求和函数
+                return this.products.reduce((prev,next)=>{
+                    if(!next.isSelect)return prev;//如果当前没被选中就不计算
+                  return prev+next.productPrice*next.productCount
+                },0)
+
+            }
+        }
+    })
+</script>
+</body>
+</html>

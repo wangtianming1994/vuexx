@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="text"  v-model="val" @keyup.enter="fn">
+    <ul>
+        <li v-for="(a,i) in add">{{a}} <button @click="del($event,i)">X</button></li>
+    </ul>
+</div>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script>
+    let vm=new Vue({
+        el:'#app',
+        data:{
+            val:'',
+            add:[]
+        },
+        methods:{
+            fn(e){
+                this.add.unshift(this.val);
+                this.val='';
+            },
+            del(e,i){
+                this.add=this.add.filter((item,index)=>index!==i);
+            }
+        }
+    })
+</script>
+</body>
+</html>
