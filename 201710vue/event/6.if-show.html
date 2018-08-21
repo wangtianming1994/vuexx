@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!--template标签 是vue提供给我们的没有任何实际的意义，用来包裹元素用的
+    v-show不支持template-->
+    <template v-if="flag"  >
+        <div >我很帅</div>
+    </template>
+   <div v-else="flag">我很帅</div>
+</div>
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script>
+    let vm = new Vue({
+        el: '#app',
+        computed:{
+            fullName(){
+                return this.firstName+this.val+this.lastName
+            }
+        },
+        data: {
+            flag:false,
+
+        },
+
+    })
+</script>
+</body>
+</html>

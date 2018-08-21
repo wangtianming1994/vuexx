@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="a">
+    <!--根据输入框中的内容，算出一个错误信息-->
+    <!--当给a赋值的时候，影响了错误信息的改变 错误的思想-->
+    {{msg}}
+</div>
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script>
+    let vm = new Vue({
+        el: '#app',
+        computed: {
+            msg() {
+                if (this.a.length < 3) {
+                    return '少了'
+                } else if (this.a.length > 6) {
+                    return '多了'
+                }
+                return ''
+            }
+        },
+        data: {
+            a: ''
+        },
+
+    })
+</script>
+</body>
+</html>

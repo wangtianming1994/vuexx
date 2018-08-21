@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- .capture捕获  .stop阻止冒泡  .prevent阻止默认行为 .once只触发一次
+    .self只有点击自己的时候才会触发-->
+    <div class="parent" @click.capture="parent">parent
+        <div class="child" @click="child">child
+            <div class="son" @click="son">son</div>
+        </div>
+    </div>
+</div>
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script>
+    /*
+    * event：stopPropagation,cancelBubble=true
+    * preventDefault,returnValue=false
+    * */
+
+    let vm=new Vue({//vm=viewModel
+        el:'#app',//告诉vue能管理哪个部分
+        data:{//data中的数据会被vm所代理
+            msg:'zfpx',//可以通过vm.msg取到对应的内容,或者赋值
+            p:'<h1>123</h1>'
+        },
+        methods:{
+            parent(e){
+                alert(0)
+            },
+            child(e){
+                alert(1)
+            },
+            son(e){
+                alert(2)
+            }
+        }
+    });//Object.defineProperty
+</script>
+</body>
+</html>

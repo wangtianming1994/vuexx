@@ -13,7 +13,7 @@
             <table class="table table-hover table-bordered">
                 <h2 class="h2 text-info text-center">购物车</h2>
                 <tr>
-                    <th>全选 <input type="checkbox" v-model="checkAll"></th>
+                    <th>全选 <input type="checkbox" v-model="checkAll" ></th>
                     <td>商品</td>
                     <td>单价</td>
                     <td>数量</td>
@@ -21,7 +21,7 @@
                     <td>操作</td>
                 </tr>
                 <tr v-for="(product,index) in products">
-                    <td><input type="checkbox" v-model="product.isSelect"></td>
+                    <td><input type="checkbox" v-model="product.isSelect" ></td>
                     <td><img :src="product.productCove"  :title="product.productName">
 
                         {{product.productInfo}}
@@ -62,8 +62,9 @@
                     return this.products.every(item=>item.isSelect)
                 },
                 set(val){//当我们给checkbox赋值的时候
+                    console.log(val);
                     this.products.forEach(item=>{
-                        item.isSelect=this.checkAll
+                        item.isSelect=val
                     })
                 }
             },
@@ -82,14 +83,14 @@
         },
         data: {
             products: [],
-            checkAll:false
+            // checkAll:false
         },
         methods: {
             initData() {
                 axios.get('./carts.json').then(res => {
                     console.log(res);
                     this.products = res.data;
-                    this.checkOne();
+                    // this.checkOne();
                 }).catch(err => {
                     console.log(err);
                 })

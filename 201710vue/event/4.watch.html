@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="a">
+    <!--根据输入框中的内容，算出一个错误信息-->
+    <!--当给a赋值的时候，影响了错误信息的改变 错误的思想-->
+    {{msg}}
+</div>
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script>
+    let vm = new Vue({
+        el: '#app',
+        watch: {//只有值变化的时候才会触发，而且支持异步，其他情况更善于使用computed
+            a(newVal,oldVal) {//watch的属性名要和观察的人的名字一致
+                console.log(newVal, oldVal);
+            }
+        },
+        data: {
+            a: '',
+            msg:''
+        },
+
+    })
+</script>
+</body>
+</html>
