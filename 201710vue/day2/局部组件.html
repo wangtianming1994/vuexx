@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+   <parent></parent>
+</div>
+
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script>
+   //局部组件使用的三部曲：1.创建组件。2.注册这个组件。 3.使用这个组件
+   //组件是相互独立的 不能直接跨作用域 实例也是一个组件，组件中拥有生命周期函数
+   //子组件不能直接使用父组件的数据
+   //组件理论上可以无线嵌套
+   let son={
+       template:"<div>son</div>",
+   };
+   let child={
+       template:"<div>child <son></son></div>",
+       components:{
+          son
+       }
+   }
+   let parent={
+       template:"<div>parent <child></child></div>",
+       components:{
+            child
+       }
+   }
+    let vm=new Vue({
+        el:'#app',
+        components:{
+            parent
+        }
+    })
+</script>
+</body>
+</html>

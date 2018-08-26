@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div id="app">
+    <p ref="mmp">{{msg}}</p>
+    <p ref="mmp">{{msg}}</p>
+    <p ref="mmp">{{msg}}</p>
+    <p ref="mmp">{{msg}}</p>
+    <div ref="mydiv" v-for="arr in arrs">{{arr}}</div>
+</div>
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script src="../node_modules/axios/dist/axios.js"></script>
+<script>
+    //this.$data vm上的数据、
+    //this.$watch 监控
+    //this.$el 当前el元素
+    //this.$set 后加属性实现响应式变化
+    //this.$options //vm上面的所有属性
+    //this.$nextTick(()=>{//异步方法，等待渲染dom完成后获取vm
+   // console.log(vm);
+    //})
+    //this.refs
+    const vm = new Vue({ //初始化的时候会调用很错方法，这些方法我们叫做钩子函数
+        el:'#app',
+        data: {
+            msg:"hello",
+            arrs:[1,2,3]
+        },
+
+        mounted(){
+            //如果dom元素不是通过v-for循环出来的  只能获取到一个，如果通过v-for循环出来的
+            //可以获取多个
+            console.log(this.$refs.mmp);
+            this.arr=[1,2,3,4];//dom渲染是异步的，如果想拿到数据的话一定要用nextTick
+            this.$nextTick(()=>{//如果数据变化后想要获取真实dom中的内容，需要待页面渲染完毕
+                //在去获取，所有dom操作 最好在nextTick中
+
+            })
+            console.log(this.$refs.mydiv);
+        }
+    })
+
+
+   </script>
+</body>
+</html>
