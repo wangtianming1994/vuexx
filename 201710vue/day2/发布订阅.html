@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+</div>
+
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script>
+
+
+//父传子
+    let vm=new Vue({
+        el:'#app',
+        data:{
+            money:100
+        },
+
+    })
+
+    //发布emit 订阅on{女生失恋:['哭'，'购物','吃']}
+    function Gril() {
+        this._event={};
+    }
+    Gril.prototype={
+
+      on(eventName,cb){
+          if(this._event[eventName]){
+              this._event[eventName].push(cb)
+          }else{
+              this._event[eventName]=[cb]
+          }
+
+      },
+      emit(eventName){
+          if(this._event[eventName]){
+              this._event[eventName].forEach(item=>item())
+          }
+      },
+    };
+    let gril=new Gril();
+    let cry=()=>{
+        console.log('哭');
+    };
+    let shop=()=>{
+        console.log('购物');
+    };
+    let eat=()=>{
+        console.log('吃');
+    };
+    gril.on('失恋',cry);
+    gril.on('失恋',shop);
+    gril.on('失恋',eat);
+    gril.emit('失恋')
+</script>
+</body>
+</html>

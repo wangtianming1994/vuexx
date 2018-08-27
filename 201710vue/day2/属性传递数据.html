@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    父亲：{{money}}
+    <!--当前组件的属性=父亲的值,m属于自己的，1属于父亲的-->
+   <!--<child m="1"></child>-->
+    <!--给儿子加了一个m属性，属性对应的数据是属于父亲的-->
+    <child :m="money" a="1"></child>
+</div>
+
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script>
+
+
+//父传子
+    let vm=new Vue({
+        el:'#app',
+        data:{
+            money:100
+        },
+        components:{
+            child:{
+               // props:['m','a'],//相当于this.m=100
+                // 会在当前子组件声明一个m属性值是父亲的（写成数组就不能对传来的数据进行校验了）
+                props:{
+                    m:{
+                        type:[String,Boolean,Object],
+                       // default:0,//如果不传值的时候m就等于0
+                        required:true,//这个属性必须传，不传就会报错
+                        validator(val){//校验，第一个参数是当前传递的值，返回true表示通过
+                            //false就不通过
+                            return val>300;//自定义校验(用的不是很多)
+                        }
+                    },
+                },
+                template:"<div>儿子 {{m}} {{a}}</div>"
+            }
+        }
+    })
+</script>
+</body>
+</html>
