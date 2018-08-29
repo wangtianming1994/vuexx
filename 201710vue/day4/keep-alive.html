@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="radio" v-model="radio" value="home">home
+    <input type="radio" v-model="radio" value="list">list
+    <!--一般用作缓存:为了后面的路由做准备，如果缓存了就不再走声明周期的函数-->
+    <!--如果子组件和父组件同时拥有mounted方法  会先走谁？会先走子的(需要等子组件都挂载完之后再走父组件的)-->
+    <!--vue中dom渲染是异步的-->
+    <keep-alive>
+        <component :is="radio"></component>
+    </keep-alive>
+</div>
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script src="../node_modules/axios/dist/axios.js"></script>
+<script>
+   let home={
+       template:"<div>你好</div>",
+       beforeDestroy(){
+           alert('销毁')
+       }
+   };
+   let list={
+       template:"<div>都好</div>",
+       beforeDestroy(){
+           alert('销毁')
+       }
+   }
+    const vm=new Vue({
+        el:'#app',
+       components:{
+            home,list
+       },
+        data:{
+            radio:'list'
+        }
+    })
+</script>
+</body>
+</html>

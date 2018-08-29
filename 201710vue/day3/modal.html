@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .mask{width:100%;height:100%;position:fixed;background: rgba(0,0,0,.35);left:0;top:0;}
+        .dialog{width:400px;height:150px;background: #fff;position: absolute;top:50%; left:50%;transform: translate(-50%,-50%)}
+    </style>
+</head>
+<body>
+
+<div id="app">
+   <button @click="showd">弹</button>
+    <modal :show="isShow"  @clone="fn"></modal>
+</div>
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script src="../node_modules/axios/dist/axios.js"></script>
+<script>
+    const vm = new Vue({ //初始化的时候会调用很错方法，这些方法我们叫做钩子函数
+        el:'#app',
+        data: {
+           isShow:false,
+        },
+        methods:{
+            fn(val){
+                this.isShow=val;
+            },
+            showd(){
+                this.isShow=true;
+            }
+        },
+        components:{
+          modal:{
+              props:['show'],
+              template:"<div v-show='show' class='mask'><div  class='dialog'><button @click='ee'>关闭</button></div></div>",
+              methods:{
+                  ee(){
+                      this.$emit('clone',false)
+                  }
+              }
+          }
+        },
+        mounted(){
+
+        }
+    })
+
+
+</script>
+</body>
+</html>
