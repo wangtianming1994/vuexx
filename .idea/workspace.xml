@@ -2,531 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bd5b044-de40-4c08-9a23-0d372f3f43a6" name="Default Changelist" comment="create filed">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/201710vue/event/1.事件修饰符.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/201710vue/event/4.watch.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/201710vue/event/6.if-show.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/201710vue/event/8路由.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/201710vue/11.cart.html" afterPath="$PROJECT_DIR$/201710vue/11.cart.html" />
-      <change beforePath="$PROJECT_DIR$/201710vue/11.computed.html" afterPath="$PROJECT_DIR$/201710vue/11.computed.html" />
-      <change beforePath="$PROJECT_DIR$/201710vue/2.mvvm.html" afterPath="$PROJECT_DIR$/201710vue/2.mvvm.html" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/.editorconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/.prettierignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/animate-config.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/animate.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/animate.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/gulpfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/_base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/bounce.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/flash.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/headShake.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/heartBeat.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/jello.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/pulse.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/rubberBand.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/shake.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/swing.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/tada.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/attention_seekers/wobble.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/bouncing_entrances/bounceIn.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/bouncing_entrances/bounceInDown.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/bouncing_entrances/bounceInLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/bouncing_entrances/bounceInRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/bouncing_entrances/bounceInUp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/bouncing_exits/bounceOut.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/bouncing_exits/bounceOutDown.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/bouncing_exits/bounceOutLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/bouncing_exits/bounceOutRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/bouncing_exits/bounceOutUp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_entrances/fadeIn.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_entrances/fadeInDown.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_entrances/fadeInDownBig.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_entrances/fadeInLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_entrances/fadeInLeftBig.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_entrances/fadeInRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_entrances/fadeInRightBig.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_entrances/fadeInUp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_entrances/fadeInUpBig.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_exits/fadeOut.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_exits/fadeOutDown.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_exits/fadeOutDownBig.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_exits/fadeOutLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_exits/fadeOutLeftBig.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_exits/fadeOutRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_exits/fadeOutRightBig.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_exits/fadeOutUp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/fading_exits/fadeOutUpBig.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/flippers/flip.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/flippers/flipInX.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/flippers/flipInY.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/flippers/flipOutX.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/flippers/flipOutY.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/lightspeed/lightSpeedIn.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/lightspeed/lightSpeedOut.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/rotating_entrances/rotateIn.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/rotating_entrances/rotateInDownLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/rotating_entrances/rotateInDownRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/rotating_entrances/rotateInUpLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/rotating_entrances/rotateInUpRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/rotating_exits/rotateOut.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/rotating_exits/rotateOutDownLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/rotating_exits/rotateOutDownRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/rotating_exits/rotateOutUpLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/rotating_exits/rotateOutUpRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/sliding_entrances/slideInDown.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/sliding_entrances/slideInLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/sliding_entrances/slideInRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/sliding_entrances/slideInUp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/sliding_exits/slideOutDown.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/sliding_exits/slideOutLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/sliding_exits/slideOutRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/sliding_exits/slideOutUp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/specials/hinge.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/specials/jackInTheBox.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/specials/rollIn.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/specials/rollOut.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/zooming_entrances/zoomIn.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/zooming_entrances/zoomInDown.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/zooming_entrances/zoomInLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/zooming_entrances/zoomInRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/zooming_entrances/zoomInUp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/zooming_exits/zoomOut.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/zooming_exits/zoomOutDown.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/zooming_exits/zoomOutLeft.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/zooming_exits/zoomOutRight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/animate.css/source/zooming_exits/zoomOutUp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/UPGRADE_GUIDE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/dist/axios.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/dist/axios.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/dist/axios.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/dist/axios.min.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/adapters/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/adapters/http.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/adapters/xhr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/axios.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/cancel/Cancel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/cancel/CancelToken.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/cancel/isCancel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/core/Axios.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/core/InterceptorManager.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/core/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/core/createError.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/core/dispatchRequest.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/core/enhanceError.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/core/settle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/core/transformData.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/defaults.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/bind.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/btoa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/buildURL.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/combineURLs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/cookies.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/deprecatedMethod.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/isAbsoluteURL.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/isURLSameOrigin.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/normalizeHeaderName.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/parseHeaders.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/helpers/spread.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/lib/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/axios/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap-grid.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap-grid.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap-grid.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap-reboot.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap-reboot.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/js/bootstrap.bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/js/bootstrap.bundle.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/js/bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/js/bootstrap.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/dist/js/bootstrap.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/alert.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/alert.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/button.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/carousel.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/collapse.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/dropdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/dropdown.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/modal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/modal.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/popover.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/popover.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/scrollspy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/scrollspy.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/tab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/tab.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/tooltip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/tooltip.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/dist/util.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/alert.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/dropdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/modal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/popover.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/scrollspy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/tab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/tooltip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/js/src/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_alert.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_badge.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_breadcrumb.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_button-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_buttons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_card.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_carousel.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_close.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_code.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_custom-forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_dropdown.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_images.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_input-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_jumbotron.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_list-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_media.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_modal.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_nav.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_navbar.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_pagination.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_popover.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_print.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_progress.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_reboot.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_root.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_tables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_tooltip.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_transitions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_type.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_utilities.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/bootstrap-grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/bootstrap-reboot.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/bootstrap.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_alert.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_background-variant.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_badge.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_border-radius.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_box-shadow.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_breakpoints.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_buttons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_caret.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_clearfix.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_float.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_gradients.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_grid-framework.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_hover.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_image.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_list-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_lists.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_nav-divider.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_pagination.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_reset-text.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_resize.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_screen-reader.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_size.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_table-row.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_text-emphasis.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_text-hide.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_text-truncate.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_transition.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/mixins/_visibility.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_align.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_background.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_borders.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_clearfix.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_display.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_embed.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_flex.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_float.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_position.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_screenreaders.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_shadows.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_sizing.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_spacing.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_text.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/bootstrap/scss/utilities/_visibility.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/.coveralls.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/.eslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/karma.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/node.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/src/browser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/src/debug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/debug/src/node.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/follow-redirects/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/follow-redirects/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/follow-redirects/http.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/follow-redirects/https.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/follow-redirects/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/follow-redirects/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/is-buffer/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/is-buffer/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/is-buffer/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/is-buffer/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/is-buffer/test/basic.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/ms/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/ms/license.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/ms/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/ms/readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/dist/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/dist/vue.common.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/dist/vue.esm.browser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/dist/vue.esm.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/dist/vue.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/dist/vue.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/dist/vue.runtime.common.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/dist/vue.runtime.esm.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/dist/vue.runtime.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/dist/vue.runtime.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/codegen/events.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/codegen/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/create-compiler.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/directives/bind.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/directives/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/directives/model.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/directives/on.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/error-detector.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/helpers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/optimizer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/parser/entity-decoder.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/parser/filter-parser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/parser/html-parser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/parser/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/parser/text-parser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/compiler/to-function.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/components/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/components/keep-alive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/global-api/assets.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/global-api/extend.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/global-api/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/global-api/mixin.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/global-api/use.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/events.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/init.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/inject.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/lifecycle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/proxy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/render-helpers/bind-object-listeners.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/render-helpers/bind-object-props.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/render-helpers/check-keycodes.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/render-helpers/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/render-helpers/render-list.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/render-helpers/render-slot.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/render-helpers/render-static.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/render-helpers/resolve-filter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/render-helpers/resolve-slots.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/render.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/instance/state.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/observer/array.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/observer/dep.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/observer/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/observer/scheduler.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/observer/traverse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/observer/watcher.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/util/debug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/util/env.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/util/error.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/util/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/util/lang.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/util/next-tick.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/util/options.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/util/perf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/util/props.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/create-component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/create-element.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/create-functional-component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/helpers/extract-props.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/helpers/get-first-component-child.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/helpers/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/helpers/is-async-placeholder.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/helpers/merge-hook.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/helpers/normalize-children.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/helpers/resolve-async-component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/helpers/update-listeners.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/modules/directives.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/modules/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/modules/ref.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/patch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/core/vdom/vnode.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/directives/html.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/directives/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/directives/model.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/directives/text.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/modules/class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/modules/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/modules/model.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/modules/style.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/options.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/compiler/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/entry-compiler.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/entry-runtime.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/entry-server-basic-renderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/entry-server-renderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/class-util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/components/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/components/transition.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/directives/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/directives/model.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/directives/show.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/modules/class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/modules/events.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/modules/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/modules/style.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/modules/transition.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/node-ops.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/patch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/runtime/transition-util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/server/compiler.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/server/directives/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/server/directives/model.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/server/directives/show.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/server/modules/attrs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/server/modules/class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/server/modules/dom-props.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/server/modules/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/server/modules/style.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/server/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/util/attrs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/util/class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/util/compat.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/util/element.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/util/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/web/util/style.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/directives/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/directives/model.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/append.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/props.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component-root.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/recycle-list.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/text.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-bind.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-for.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-if.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-on.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-once.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/compiler/modules/style.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/entry-compiler.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/entry-framework.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/entry-runtime-factory.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/components/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/components/richtext.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/components/transition.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/directives/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/modules/class.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/modules/events.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/modules/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/modules/style.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/modules/transition.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/node-ops.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/patch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/recycle-list/render-component-template.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/recycle-list/virtual-component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/runtime/text-node.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/util/element.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/util/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/platforms/weex/util/parser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/bundle-renderer/source-map-support.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/create-basic-renderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/create-renderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/optimizing-compiler/codegen.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/optimizing-compiler/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/optimizing-compiler/modules.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/optimizing-compiler/optimizer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/optimizing-compiler/runtime-helpers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/render-context.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/render-stream.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/render.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/template-renderer/create-async-file-mapper.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/template-renderer/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/template-renderer/parse-template.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/template-renderer/template-stream.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/webpack-plugin/client.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/webpack-plugin/server.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/webpack-plugin/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/server/write.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/sfc/parser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/shared/constants.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/src/shared/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/types/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/types/options.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/types/plugin.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/types/vnode.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/201710vue/node_modules/vue/types/vue.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -576,105 +57,118 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2026099084">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="10" />
+          <entry key="js" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="10" />
+          <entry key="JavaScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1627" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1627" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="11.computed.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201710vue/11.computed.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201710vue/day3/生命周期.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="312">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6.if-show.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201710vue/event/6.if-show.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201710vue/day4/panel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7动态设置样式.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201710vue/event/7动态设置样式.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="8路由.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/201710vue/event/8路由.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="-26">
               <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.mvvm.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201710vue/2.mvvm.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201710vue/day4/panel2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="39" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="159">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11.cart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201710vue/11.cart.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201710vue/day4/panel3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="237">
+              <caret line="22" column="31" selection-end-line="71" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="9.checkbox.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201710vue/9.checkbox.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201710vue/day4/eventbus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="303">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.computed.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201710vue/event/3.computed.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/201710vue/day5/路由.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="601">
+              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.watch.html" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201710vue/day2/发布订阅.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-652" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/201710vue/event/4.watch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="468">
+              <caret line="18" column="28" selection-end-line="30" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5.watch和computed.html" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/201710vue/event/5.watch和computed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="364">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -714,6 +208,11 @@
         <option value="$PROJECT_DIR$/201710vue/event/6.if-show.html" />
         <option value="$PROJECT_DIR$/201710vue/event/7动态设置样式.html" />
         <option value="$PROJECT_DIR$/201710vue/event/8路由.html" />
+        <option value="$PROJECT_DIR$/201710vue/day3/生命周期.html" />
+        <option value="$PROJECT_DIR$/201710vue/day4/panel2.html" />
+        <option value="$PROJECT_DIR$/201710vue/day4/panel3.html" />
+        <option value="$PROJECT_DIR$/201710vue/day4/eventbus.html" />
+        <option value="$PROJECT_DIR$/201710vue/day5/路由.html" />
       </list>
     </option>
   </component>
@@ -738,10 +237,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="961" />
-    <option name="y" value="23" />
-    <option name="width" value="940" />
-    <option name="height" value="1056" />
+    <option name="x" value="1018" />
+    <option name="y" value="34" />
+    <option name="width" value="1136" />
+    <option name="height" value="1392" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -763,20 +262,11 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -793,30 +283,44 @@
               <item name="vuexx" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuexx" type="462c0819:PsiDirectoryNode" />
               <item name="201710vue" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vuexx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vuexx" type="462c0819:PsiDirectoryNode" />
+              <item name="201710vue" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vuexx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vuexx" type="462c0819:PsiDirectoryNode" />
+              <item name="201710vue" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-router" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.9.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../面试用" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="javascript.nodejs.core.library.configured.version" value="8.9.3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Study\vuexx\201710vue\day4" />
       <recent name="G:\project\vuexx\201710vue\event" />
       <recent name="G:\project\vuexx\201710vue" />
     </key>
@@ -832,9 +336,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -855,6 +356,10 @@
       <workItem from="1534862815095" duration="93000" />
       <workItem from="1534862953138" duration="167000" />
       <workItem from="1534864743542" duration="9300000" />
+      <workItem from="1535349162908" duration="2577000" />
+      <workItem from="1535505377745" duration="3862000" />
+      <workItem from="1535537459194" duration="1011000" />
+      <workItem from="1535591662951" duration="16494000" />
     </task>
     <task id="LOCAL-00001" summary="create filed">
       <created>1534785161565</created>
@@ -881,29 +386,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14370000" />
+    <option name="totallyTimeSpent" value="38314000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="23" width="940" height="1056" extended-state="0" />
+    <frame x="679" y="23" width="757" height="928" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25055432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36893204" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32934782" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,216 +421,18 @@
     <MESSAGE value="create filed" />
     <option name="LAST_COMMIT_MESSAGE" value="create filed" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/201710vue/5.transition.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/201710vue/12.query.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/11.computed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/2.mvvm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/4.reactivity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="24" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/11.cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/5.transition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/12.query.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/11.computed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/2.mvvm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/4.reactivity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="24" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/11.cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/5.transition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/12.query.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/11.computed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/2.mvvm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/4.reactivity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="24" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/11.cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/5.transition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/12.query.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/11.computed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/4.reactivity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="24" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/2.mvvm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/5.transition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/12.query.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/4.reactivity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="24" selection-end-column="9" />
-          <folding />
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1133,103 +440,164 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/201710vue/event/1.事件修饰符.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/201710vue/event/2.checkAll.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/9.checkbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/11.cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/2.mvvm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="39" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/event/3.computed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/event/4.watch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="7" />
-          <folding />
+          <caret line="16" column="20" lean-forward="true" selection-end-line="32" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/201710vue/11.computed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201710vue/event/5.watch和computed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="2106">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/201710vue/event/6.if-show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="416">
+          <caret line="16" column="8" selection-end-line="32" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/201710vue/event/7动态设置样式.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="780">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/11.cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/201710vue/event/8路由.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="208">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/day3/1.lifecycle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/day3/2smzq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/2.mvvm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/4.reactivity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/6.v-for.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/9.checkbox.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/event/3.computed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/event/4.watch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="28" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/event/5.watch和computed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/day3/生命周期.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/day4/panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
           <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/day4/panel2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/day4/panel3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="22" column="31" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/day2/发布订阅.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/node_modules/vue-router/dist/vue-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9698">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/day4/eventbus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201710vue/day5/路由.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>

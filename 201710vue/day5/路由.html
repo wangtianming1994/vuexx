@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+<div id="app">
+    <!--是一个全局组件可以直接只用,路径匹配后把内容添加到这里-->
+    <router-link to="/home">首页</router-link>
+    <router-link to="/list">列表</router-link>
+    <router-view></router-view>
+</div>
+
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script src="../node_modules/vue-router/dist/vue-router.js"></script>
+<script src="../node_modules/axios/dist/axios.js"></script>
+<script>
+    /*
+    * hash模式 不会导致404 #号后面不支持seo，所以上线不用
+    * h5history.pushState
+    * vue-router 必须放在vue的后面
+    * */
+
+    //路由：访问不同的路径，就可以返回不同的结果
+    //多页面(spa)
+    let home={
+        template:"<div>首页</div>"
+    };
+    let list={
+        template:"<div>列表</div>"
+    };
+    let router=new VueRouter({//引入vue-router自带一个VueRouter类
+         //mode:'history',//路由的模式，默认是hash的
+        routes:[//路由映射表，配置路由和组件的关系
+            {path:'/home',component:home},//页面级组件
+            {path:'/list',component:list},
+        ]
+    });
+    let vm=new Vue({
+        el:'#app',
+
+        router,
+    });
+
+
+</script>
+</body>
+</html>
